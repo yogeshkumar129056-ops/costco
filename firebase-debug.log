@@ -1,0 +1,59 @@
+[debug] [2026-04-27T17:30:33.106Z] ----------------------------------------------------------------------
+[debug] [2026-04-27T17:30:33.109Z] Command:       /home/yogesh/.nvm/versions/node/v20.20.2/bin/node /home/yogesh/Desktop/lander page/costco750/node_modules/.bin/firebase init
+[debug] [2026-04-27T17:30:33.110Z] CLI Version:   15.15.0
+[debug] [2026-04-27T17:30:33.110Z] Platform:      linux
+[debug] [2026-04-27T17:30:33.110Z] Node Version:  v20.20.2
+[debug] [2026-04-27T17:30:33.110Z] Time:          Mon Apr 27 2026 23:00:33 GMT+0530 (India Standard Time)
+[debug] [2026-04-27T17:30:33.110Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/yogesh/Desktop/lander page/costco750
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-04-27T17:30:37.569Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-04-27T17:30:37.571Z] > authorizing via signed-in user (yogeshkumar129056@gmail.com)
+[debug] [2026-04-27T17:30:37.573Z] Checked if tokens are valid: true, expires at: 1777314304572
+[debug] [2026-04-27T17:30:37.574Z] Checked if tokens are valid: true, expires at: 1777314304572
+[debug] [2026-04-27T17:30:37.578Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/costco-59455 [none]
+[debug] [2026-04-27T17:30:38.147Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/costco-59455 200
+[debug] [2026-04-27T17:30:38.148Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/costco-59455 {"projectId":"costco-59455","projectNumber":"606833742900","displayName":"costco","name":"projects/costco-59455","resources":{"hostingSite":"costco-59455"},"state":"ACTIVE","etag":"1_ca647380-d01c-4992-81ed-f070ed90070b"}
+[info] i  Using project costco-59455 (costco) . 
+[info] 
+=== Hosting Setup
+[info] 
+[debug] [2026-04-27T17:30:57.103Z] Checked if tokens are valid: true, expires at: 1777314304572
+[debug] [2026-04-27T17:30:57.103Z] Checked if tokens are valid: true, expires at: 1777314304572
+[debug] [2026-04-27T17:30:57.104Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/costco-59455 [none]
+[debug] [2026-04-27T17:30:57.725Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/costco-59455 200
+[debug] [2026-04-27T17:30:57.725Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/costco-59455 {"projectId":"costco-59455","projectNumber":"606833742900","displayName":"costco","name":"projects/costco-59455","resources":{"hostingSite":"costco-59455"},"state":"ACTIVE","etag":"1_ca647380-d01c-4992-81ed-f070ed90070b"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2026-04-27T17:31:08.881Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (/home/yogesh/Desktop/lander page/costco750/node_modules/@inquirer/core/dist/commonjs/lib/create-prompt.js:101:37)
+    at Interface.emit (node:events:524:28)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1134:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:267:20)
+    at ReadStream.emit (node:events:536:35)
+    at emitKeys (node:internal/readline/utils:371:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+    at ReadStream.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+[error] 
+[error] Error: An unexpected error has occurred.
